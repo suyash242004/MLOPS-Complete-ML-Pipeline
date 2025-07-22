@@ -1,9 +1,7 @@
 data_ingestion:
-  test_size: 0.30
-
+  test_size: 0.2
 feature_engineering:
-  max_features: 50
-
+  max_features: 35
 model_training:
-  n_estimators: 25
+  n_estimators: 22
   random_state: 2
